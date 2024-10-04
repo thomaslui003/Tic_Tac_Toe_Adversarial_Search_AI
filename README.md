@@ -12,7 +12,7 @@ A Tic Tac Toe game implemented in Python using Tkinter for the graphical user in
 ## Technologies
 
 - **Python 3.x**
-- **Tkinter**: For GUI development.
+- **Tkinter**: For GUI interface development.
 - **Custom AI Algorithms**: MinMax, AlphaBeta, Expectimax, and Random player.
 
 ## Installation
