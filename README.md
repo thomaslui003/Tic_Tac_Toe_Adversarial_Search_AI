@@ -2,6 +2,8 @@
 
 A Tic Tac Toe game implemented in Python using Tkinter for the graphical user interface. The game allows two players to compete against each other or against an AI opponent, with multiple AI algorithms to choose from.
 
+![App Screenshot](https://github.com/thomaslui003/Invasive-Species-Reporting-Tool-/blob/main/simpleWebApp_wlui/interface2.jpg)
+
 ## Features
 
 - **Interactive GUI**: Built with Tkinter for a user-friendly interface.
