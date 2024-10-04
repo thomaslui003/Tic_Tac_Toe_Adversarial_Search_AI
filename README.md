@@ -1,4 +1,4 @@
-# Tic Tac Toe with AI 
+# Tic Tac Toe with Adversarial Search AI 
 
 A Tic Tac Toe game implemented in Python using Tkinter for the graphical user interface. The game allows two players to compete against each other or against an AI opponent, with multiple AI algorithms to choose from.
 
@@ -17,7 +17,7 @@ A Tic Tac Toe game implemented in Python using Tkinter for the graphical user in
 
 ## Installation
 
-To run the project, make sure you have Python 3.x installed on your machine. You can download it from [python.org](https://www.python.org/downloads/).
+To run the project, make sure you have Python 3.x installed on your machine or in your vscode environment.
 
 1. Clone the repository:
    ```bash
