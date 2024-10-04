@@ -31,30 +31,35 @@ To start the game, run the main script:
 
    ```bash
    python tic-tac-toe.py [height] [width] [k-match]
+   ```
+   - height: The number of rows in the Tic Tac Toe grid (default is 3).
+   - width: The number of columns in the Tic Tac Toe grid (default is 3).
+   - k-match: The number of symbols in a row needed to win (default is 3).
 
+   **Example:**
 
-   height: The number of rows in the Tic Tac Toe grid (default is 3).
-   width: The number of columns in the Tic Tac Toe grid (default is 3).
-   k-match: The number of symbols in a row needed to win (default is 3).
-
-   Example:
-
-   bash
-   Copy code
+   ``` bash
    python main.py 4 4 4
-   Gameplay
-   Players take turns clicking on empty buttons to place their symbol (X or O).
-   The game automatically checks for victory conditions after each move.
-   The AI makes its move after the player’s turn, based on the selected algorithm.
-AI Algorithms
-The game includes the following AI algorithms:
+   ```
 
-Random: The AI chooses a random empty position.
-MinMax: A simple minimax algorithm that aims to minimize the player's chances of winning.
-AlphaBeta: An optimized version of the MinMax algorithm that reduces the number of nodes evaluated.
-Expectimax: Considers the expected utility of moves, making it a more sophisticated choice for AI opponents.
-You can select the desired algorithm from the dropdown menu in the UI.
+   **Gameplay**
 
-Game Reset and Exit
-Reset: Click the "Reset" button to start a new game without closing the application.
-Exit: Click the "Exit" button to close the game window.
+   - Players take turns clicking on empty buttons to place their symbol (X or O).  
+   - The game automatically checks for victory conditions after each move.  
+   - The AI makes its move after the player’s turn, based on the selected algorithm.
+
+   - **Game Reset and Exit**
+     - Reset: Click the "Reset" button to start a new game without closing the application.
+     - Exit: Click the "Exit" button to close the game window.
+
+## AI Algorithms
+
+   The game includes the following AI algorithms:
+
+   - **Random:** The AI chooses a random empty position.  
+   - **MinMax:** A simple minimax algorithm that aims to minimize the player's chances of winning.  
+   - **AlphaBeta:** An optimized version of the MinMax algorithm that reduces the number of nodes evaluated.  
+   - **Expectimax:** Considers the expected utility of moves, making it a more sophisticated choice for AI opponents.
+
+   You can select the desired algorithm from the dropdown menu in the UI.
+
